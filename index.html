@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="./assets/sunflower.png"
+      type="image/x-icon"
+    />
+    <title>Dashboard Blühende Akademie</title>
+    <style>
+      /* Farbpalette */
+      :root {
+        --color-dark-green: #1c352d;
+        --color-light-green: #a6b28b;
+        --color-beige: #f5c9b0;
+        --color-offwhite: #f9f6f3;
+        --color-hover: #dde6cf;
+        --text-color: #1c352d;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Kanit", sans-serif;
+        background-color: var(--color-offwhite);
+        color: var(--text-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        min-height: 100vh;
+      }
+
+      fieldset {
+        border: 2px solid var(--color-dark-green);
+        border-radius: 8px;
+        padding: 1rem 2rem 2rem;
+        width: 100%;
+        max-width: 960px;
+        box-sizing: border-box;
+        margin-bottom: 2rem;
+        background-color: var(--color-beige);
+      }
+
+      legend {
+        font-family: "Acme", cursive;
+        font-size: 2rem;
+        padding: 0 1rem;
+        color: var(--color-dark-green);
+        user-select: none;
+      }
+
+      .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+        max-width: 960px;
+      }
+
+      .tile {
+        background-color: var(--color-light-green);
+        width: 160px;
+        height: 160px;
+        border-radius: 16px;
+        box-shadow: 2px 4px 6px rgba(28, 53, 45, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: var(--color-dark-green);
+        text-decoration: none;
+        transition: background-color 0.3s, box-shadow 0.3s;
+        user-select: none;
+      }
+
+      .tile:hover,
+      .tile:focus {
+        background-color: var(--color-beige);
+        box-shadow: 4px 6px 10px rgba(28, 53, 45, 0.6);
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Blühende Akademie Dashboard</legend>
+
+      <div class="grid-container">
+        <a
+          href="http://127.0.0.1:5500/index.html#gsc.tab=0"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 1</a
+        >
+        <a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 2</a
+        >
+        <a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 3</a
+        >
+        <a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 4</a
+        >
+        <a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 5</a
+        >
+        <a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 6</a
+        >
+        <a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 7</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 8</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 9</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 10</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 11</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 12</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 13</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 14</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 15</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 16</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 17</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 18</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 19</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 20</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 21</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 22</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 23</a
+        ><a
+          href="#"
+          class="tile"
+          target="_blank"
+          rel="noopener noreferrer"
+          tabindex="0"
+          >Woche 24</a
+        >
+      </div>
+    </fieldset>
+  </body>
+</html>
